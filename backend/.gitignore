@@ -1,0 +1,15 @@
+.env
+.venv/
+.pytest_cache/
+.coverage
+__pycache__/
+*.py[cod]
+var/
+src/*.egg-info/
+tmp/
+
+# Validated local publication artifacts stay outside Git.
+ready-audio/*
+!ready-audio/README.md
+ready-videos/*
+!ready-videos/README.md

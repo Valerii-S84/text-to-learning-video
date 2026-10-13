@@ -1,0 +1,15 @@
+**/__pycache__/
+**/*.py[cod]
+backend/.env
+backend/.venv/
+backend/.pytest_cache/
+backend/.coverage
+/.ruff_cache/
+/.codex_tmp/
+
+# Preserve legacy ready artifacts outside Git; new runs publish below backend/.
+/ready-audio/
+/ready-videos/
+
+/backend/logs/
+/backend/saved-backgrounds/
